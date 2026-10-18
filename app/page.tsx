@@ -1,5 +1,5 @@
-import { Noor } from "./noor";
+import { Site } from "@/components/site";
 
 export default function Page() {
-  return <Noor />;
+  return <Site />;
 }
