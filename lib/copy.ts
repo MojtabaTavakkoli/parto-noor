@@ -369,7 +369,7 @@ const fa: Copy = {
       { id: "questions", label: "پرسش" },
       { id: "blog", label: "وبلاگ" },
     ],
-    marks: ["نماد اعتماد", "ساماندهی", "اینماد"],
+    marks: ["نماد اعتماد", "ساماندهی"],
   },
 };
 
@@ -632,7 +632,7 @@ const en: Copy = {
       { id: "questions", label: "Questions" },
       { id: "blog", label: "Blog" },
     ],
-    marks: ["Trust mark", "Samandehi", "Enamad"],
+    marks: ["Trust mark", "Samandehi"],
   },
 };
 

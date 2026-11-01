@@ -3,7 +3,7 @@
 import { useLocale } from "@/lib/locale";
 
 export function Foot() {
-  const { t } = useLocale();
+  const { locale, t } = useLocale();
 
   return (
     <footer className="site-foot">
@@ -18,6 +18,22 @@ export function Foot() {
         {t.footer.marks.map((mark) => (
           <li key={mark}>{mark}</li>
         ))}
+        <li className="seal">
+          <a
+            referrerPolicy="origin"
+            target="_blank"
+            href="https://trustseal.enamad.ir/?id=8288076&Code=9XuSaWpcMeBIZxtGwaq8jqkZJPr1r2Sj"
+            aria-label={locale === "fa" ? "نماد اعتماد الکترونیکی" : "E-namad"}
+          >
+            <img
+              referrerPolicy="origin"
+              src="https://trustseal.enamad.ir/logo.aspx?id=8288076&Code=9XuSaWpcMeBIZxtGwaq8jqkZJPr1r2Sj"
+              alt=""
+              style={{ cursor: "pointer" }}
+              {...{ code: "9XuSaWpcMeBIZxtGwaq8jqkZJPr1r2Sj" }}
+            />
+          </a>
+        </li>
       </ul>
       <span>{t.footer.note}</span>
     </footer>

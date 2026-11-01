@@ -1677,6 +1677,21 @@ button {
   text-align: center;
 }
 
+.marks li.seal {
+  width: auto;
+  height: auto;
+  padding: 0;
+  border: 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+.marks li.seal img {
+  display: block;
+  width: 92px;
+  height: auto;
+}
+
 .soon {
   position: fixed;
   z-index: 80;
